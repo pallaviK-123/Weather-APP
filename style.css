@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+.mdiv{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;background-image: url("https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg");
+    background-position: center;
+    background-size: cover;
+   
+}
+.container{
+    height: 350px;
+    width: 250px;
+    box-shadow: 0px 0px 20px grey;
+    background: transparent;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: white;
+    
+}
+.heading{
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    
+}
+input[type="text"]{
+    height: 30px;
+    width: 180px;
+    padding-left: 10px;
+    outline: none;
+    font-weight: bolder;
+}
+#city{
+    color: orangered;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.srch_btn{
+    border: none;
+    padding-top: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    
+   
+
+}
+.component{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.btn{
+    margin-top: -20px;
+    margin-left: 20px;
+}
+/* #city{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+} */
+.measurment{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}

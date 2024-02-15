@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weatherapp</title>
+</head>
+
+<body>
+    <div class="mdiv">
+        <div class="container">
+            <h3 class="heading">WEATHER FORECAST</h3>
+            <form>
+                <div class="component">
+                    <div>
+                        <input type="text" name="city" id="city_name" placeholder="Enter a city" autofocus>
+                    </div>
+                    <div class="btn">
+                        <button type="button" class="srch_btn" onclick="fetchCity()"><img
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8H00Sya4nCjJM0FOAly5XpcoZAuNwdkSS6mujPQ20zg&s"
+                                alt="search icon" height="20px"></button>
+
+                    </div>
+
+                </div>
+                <br>
+                <div align="center" style="margin-top: -10px;">
+                    <img src="https://e1.pxfuel.com/desktop-wallpaper/301/85/desktop-wallpaper-10-weather-forecast-icons-weather-forecasting.jpg" alt="" height="100px">
+                </div>
+                <div align="center" style="margin-top: -5px;">
+                    <span id="city">CITY NAME</span>
+                    <br>
+                    <span class="measurement" id="temp">°C</span>
+                </div>
+                <div align="center" style="margin-top: 20px;">
+
+
+                    <table width="100%" cellpadding="10px">
+                        <tr align="center">
+                            <td>
+                                <h5 class="headings">WIND SPEED</h5>
+                                <span class="measurement" id="wind_speed">0 km/hr</span>
+                            </td>
+                            <td>
+                                <h4 class="headings">HUMIDITY</h4>
+                                <span class="measurement" id="humidity">0 g/kg</span>
+                            </td>
+                        </tr>
+                    </table>
+
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
